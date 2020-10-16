@@ -9,18 +9,19 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/vidbg.css" />
+    <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header class="header">
-      <img src="img/logo.svg" alt="Logo Space X" class="logo" />
+      <img src="img/logo.svg" alt="Logo Space X" class="logo" data-aos="fade-up"/>
       <nav class="main-nav">
         <ul class="list">
           <li class="item">
             <a href="#" class="item-link">Falcon 9</a>
           </li>
           <li class="item">
-            <a href="#" class="item-link">Falcon Heavy</a>
+            <a href="#" class="item-link" >Falcon Heavy</a>
           </li>
           <li class="item">
             <a href="#" class="item-link">Dragon</a>
@@ -45,8 +46,8 @@
       </nav>
     </header>
     <section class="main">
-      <h1 class="title">Falcon Heavy</h1>
-      <p class="description">
+      <h1 class="title" data-aos="fade-down" data-aos-delay="300">Falcon Heavy</h1>
+      <p class="description" data-aos="fade-down" data-aos-delay="1000">
         The most powerful operational rocket in the world by a factor of two
       </p>
     </section>
@@ -81,10 +82,10 @@
           </tr>
         </table>
         <img
-          src="img/rocket.png"
+          src="img/falcon-heavy.png"
           alt="rocket"
           class="rocket"
-          data-rellax-speed="8"
+          data-rellax-speed="14"
         />
         <h2 class="features-title">UNMATCHED <br />PERFORMANCE</h2>
         <p class="features-text">
@@ -96,8 +97,30 @@
         </p>
       </div>
     </section>
+    <footer class="footer">
+      <img src="img/logo.svg" alt="logo Space X" class="logo" />
+      <nav class="footer-nav">
+        <ul class="list">
+          <li class="item"><a href="#" class="item-link">Twitter</a></li>
+          <li class="item"><a href="#" class="item-link">Youtube</a></li>
+          <li class="item"><a href="#" class="item-link">Instagram</a></li>
+          <li class="item"><a href="#" class="item-link">Flickr</a></li>
+          <li class="item"><a href="#" class="item-link">LinkedIn</a></li>
+          <li class="item"><a href="#" class="item-link">Privacy</a></li>
+          <li class="item"><a href="#" class="item-link">Policy</a></li>
+        </ul>
+      </nav>
+      <p class="footer-text">
+        For additional questions, contact
+        <a class="footer-link" href="mailto:rideshare@spacex.com"
+          >rideshare@spacex.com</a
+        >
+      </p>
+      <a href="#" class="button">Contact us</a>
+    </footer>
     <script src="js/vidbg.js"></script>
     <script src="js/rellax.min.js"></script>
+    <script src="js/aos.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
